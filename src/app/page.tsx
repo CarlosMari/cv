@@ -151,6 +151,9 @@ export default function Page() {
                     <div className="text-sm tabular-nums text-gray-500">
                       {education.start} - {education.end}
                     </div>
+                    <div className="text-sm tabular-nums text-gray-500">
+                      {education.gpa}
+                    </div>
                   </div>
                 </CardHeader>
                 <CardContent className="mt-2">{education.degree}</CardContent>

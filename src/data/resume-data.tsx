@@ -55,6 +55,7 @@ export const RESUME_DATA = {
     {
       school: "Universidad Pontifica de Comillas ICAI",
       degree: "Bachelor's Degree in Telecommunication Technologies Engineering",
+      gpa: "7.5",
       start: "2020",
       end: "2024",
     },
