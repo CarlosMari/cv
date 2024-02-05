@@ -55,14 +55,14 @@ export const RESUME_DATA = {
     {
       school: "Universidad Pontifica de Comillas ICAI",
       degree: "Bachelor's Degree in Telecommunication Technologies Engineering",
-      gpa: "7.5",
+      gpa: "GPA: 7.5",
       start: "2020",
       end: "2024",
     },
     {
       school: "The University of Texas at Austin",
       degree: "Bachelor's Degree in Electrical and Computer Engineering (Exchange)",
-      gpa: "3.9292",
+      gpa: "GPA: 3.9292",
       start: "2023",
       end: "2024",
     },
