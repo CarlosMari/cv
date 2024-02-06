@@ -113,6 +113,34 @@ export const RESUME_DATA = {
         href: "https://github.com/anforsm/movie-diffusion/",
       },
     },
+
+    {
+      title: "Federated Learning Framework",
+      techStack: [
+        "PyTorch",
+        "Python",
+      ],
+      description: "As part of my Capstone Project currently developing a Federated Learning framework based on the flower framework.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "FL Framework",
+        href: "https://github.com/rmahendra9/EE364D",
+      },
+    },
+
+    {
+      title: "CFR-RL Generalization",
+      techStack: [
+        "PyTorch",
+        "Python",
+      ],
+      description: "Research on the use of Reinforcement Learning for Network Optimzation. Based on thee CFR-RL algorithm working on a model that is able to generalize.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "Generalized CFR-RL",
+        href: "https://github.com/CarlosMari/CFR-RL",
+      },
+    },
  
    ],
 } as const;
