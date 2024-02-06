@@ -29,10 +29,10 @@ export const RESUME_DATA = {
   summary:
     "Currently doing research on the use of Reinforcement Learning for network optimization at UT Austin, also working on creating a Federated Learning framework as a senior design project. ",
   avatarUrl: "https://avatars.githubusercontent.com/u/97597629?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  personalWebsiteUrl: "carlosmari.com",
   contact: {
     email: "carlosmari@utexas.edu",
-    tel: "+34636974742 \ +1 (512) 550-8037",
+    
     social: [
       {
         name: "GitHub",
