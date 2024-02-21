@@ -25,7 +25,7 @@ export const RESUME_DATA = {
   location: "Madrid, Spain, CET",
   locationLink: "https://www.google.com/maps/place/Madrid",
   about:
-    "Electrical and Computer Engineering student focusing on ML",
+    "Electrical and Computer Engineering student",
   summary:
     "Currently doing research on the use of Reinforcement Learning for network optimization at UT Austin, also working on creating a Federated Learning framework as a senior design project. ",
   avatarUrl: "https://avatars.githubusercontent.com/u/97597629?v=4",
@@ -98,6 +98,7 @@ export const RESUME_DATA = {
     "Tensorflow",
     "C",
     "Java",
+    "VHDL",
   ],
   projects: [
     {
