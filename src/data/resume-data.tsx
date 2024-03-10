@@ -1,21 +1,7 @@
 import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
   ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
   JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
   ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -56,6 +42,7 @@ export const RESUME_DATA = {
       school: "Universidad Pontifica de Comillas ICAI",
       degree: "Bachelor's Degree in Telecommunication Technologies Engineering",
       gpa: "Grade: 7.5",
+      coursework: "Coursework: Algorithms, Digital Systems I, Digital Systems II, Software Engineering, Signals and Systems, Communication Theory, Radiation and Propagation, Electromagnetic Fields",
       start: "2020",
       end: "2024",
     },
@@ -63,6 +50,7 @@ export const RESUME_DATA = {
       school: "The University of Texas at Austin",
       degree: "Bachelor's Degree in Electrical and Computer Engineering (Exchange)",
       gpa: "GPA: 3.9292",
+      coursework: "Corsework: Digital Image Processing, Edge AI, Reinforcement Learning, Probability and Randomm Processes",
       start: "2023",
       end: "2024",
     },
@@ -82,7 +70,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Universidad Pontificia de Comillas ICAI",
-      link: "https://ucomillas.edu/",
+      link: "https://comillas.edu/",
       badges: [],
       title: "Collaborator Student",
       logo: JojoMobileLogo,
@@ -99,6 +87,7 @@ export const RESUME_DATA = {
     "C",
     "Java",
     "VHDL",
+    "JavaScript"
   ],
   projects: [
     {
@@ -107,7 +96,7 @@ export const RESUME_DATA = {
         "PyTorch",
         "Python",
       ],
-      description: "A diffusion model built from scratch to generate Movie Posters",
+      description: "Developed a diffusion model based on the UNet architecture from scratch to generate movie posters.",
       logo: ConsultlyLogo,
       link: {
         label: "MovieGen",
@@ -121,7 +110,7 @@ export const RESUME_DATA = {
         "PyTorch",
         "Python",
       ],
-      description: "As part of my Capstone Project currently developing a Federated Learning framework based on the flower framework.",
+      description: "As part of my Capstone Project currently developing a Hierarchical Federated Learning framework based on the flower framework.",
       logo: ConsultlyLogo,
       link: {
         label: "FL Framework",
@@ -135,7 +124,7 @@ export const RESUME_DATA = {
         "PyTorch",
         "Python",
       ],
-      description: "Research on the use of Reinforcement Learning for Network Optimzation. Based on thee CFR-RL algorithm working on a model that is able to generalize.",
+      description: "Research on the use of Reinforcement Learning for Network Optimzation. Based on thee CFR-RL algorithm working on a model that is able to generalize to any topology.",
       logo: ConsultlyLogo,
       link: {
         label: "Generalized CFR-RL",

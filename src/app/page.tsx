@@ -141,6 +141,7 @@ export default function Page() {
                   </div>
                 </CardHeader>
                 <CardContent className="mt-2">{education.degree}</CardContent>
+                <CardContent className="mt-1" style={{ fontSize: '10px' }}>{education.coursework}</CardContent>
               </Card>
             );
           })}
