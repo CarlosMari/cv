@@ -41,6 +41,8 @@ export const RESUME_DATA = {
     {
       school: "Universidad Pontifica de Comillas ICAI",
       degree: "MSc in Telecommunication Engineering",
+      gpa: "",
+      coursework: "",
       start: "2024",
       end: "2026",
     },
@@ -65,11 +67,12 @@ export const RESUME_DATA = {
   work: [
 
     {
-      company: "Instituto de Investigación Tecnológica",
+      company: "Instituto de Investigacion Tecnológica",
       link: "https://www.iit.comillas.edu",
       badges: [],
       title: "Research Assistant",
       start: "Sept 2024",
+      end: "N/A",
       description:
         "Research on the use of autoencoders and diffusion in timeseries forecasting",
     },
