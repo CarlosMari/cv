@@ -11,9 +11,9 @@ export const RESUME_DATA = {
   location: "Madrid, Spain, CET",
   locationLink: "https://www.google.com/maps/place/Madrid",
   about:
-    "Electrical and Computer Engineering student",
+    "Graduate Engineering Student",
   summary:
-    "Currently doing research on the use of Reinforcement Learning for network optimization at UT Austin, also working on creating a Federated Learning framework as a senior design project. ",
+    "Currently doing research on the use of Autoencoders and Diffusion on timeseries forecasting.",
   avatarUrl: "https://avatars.githubusercontent.com/u/97597629?v=4",
   personalWebsiteUrl: "carlosmari.com",
   contact: {
@@ -40,8 +40,15 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Universidad Pontifica de Comillas ICAI",
+      degree: "MSc in Telecommunication Engineering",
+      start: "2024",
+      end: "2026",
+    },
+
+    {
+      school: "Universidad Pontifica de Comillas ICAI",
       degree: "Bachelor's Degree in Telecommunication Technologies Engineering",
-      gpa: "Grade: 7.5",
+      gpa: "Grade: 7.9",
       coursework: "Coursework: Algorithms, Digital Systems I, Digital Systems II, Software Engineering, Signals and Systems, Communication Theory, Radiation and Propagation, Electromagnetic Fields",
       start: "2020",
       end: "2024",
@@ -49,13 +56,23 @@ export const RESUME_DATA = {
     {
       school: "The University of Texas at Austin",
       degree: "Bachelor's Degree in Electrical and Computer Engineering (Exchange)",
-      gpa: "GPA: 3.9292",
+      gpa: "GPA: 3.92",
       coursework: "Corsework: Digital Image Processing, Edge AI, Reinforcement Learning, Probability and Randomm Processes",
       start: "2023",
       end: "2024",
     },
   ],
   work: [
+
+    {
+      company: "Instituto de Investigación Tecnológica",
+      link: "https://www.iit.comillas.edu",
+      badges: [],
+      title: "Research Assistant",
+      start: "Sept 2024",
+      description:
+        "Research on the use of autoencoders and diffusion in timeseries forecasting",
+    },
 
     {
       company: "Tower Consultores",
@@ -87,9 +104,25 @@ export const RESUME_DATA = {
     "C",
     "Java",
     "VHDL",
-    "JavaScript"
+    "JavaScript",
+    "ONNX",
   ],
   projects: [
+
+    {
+      title: "Timeseries forecasting",
+      techStack: [
+        "PyTorch",
+        "Python",
+      ],
+      description: "Use of autoencoders and diffusion to forecast timeseries",
+      logo: ConsultlyLogo,
+      link: {
+        label: "Autoencoders",
+        href: "https://github.com/CarlosMari/TimeSeries",
+      },
+    },
+
     {
       title: "Diffusion Model from Scratch",
       techStack: [
