@@ -67,7 +67,7 @@ export const RESUME_DATA = {
   work: [
 
     {
-      company: "Instituto de Investigacion Tecnológica",
+      company: "Instituto de Investigación Tecnológica",
       link: "https://www.iit.comillas.edu",
       badges: [],
       title: "Research Assistant",
