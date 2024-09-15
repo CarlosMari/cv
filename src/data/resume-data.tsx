@@ -3,7 +3,7 @@ import {
   JojoMobileLogo,
   ParabolLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon, XIcon, CVIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Carlos Marí Noguera",
@@ -34,6 +34,11 @@ export const RESUME_DATA = {
         name: "X",
         url: "https://twitter.com/_carlosmn",
         icon: XIcon,
+      },
+      {
+        name: "CV",
+        url: "./resume.pdf",
+        icon: CVIcon,
       },
     ],
   },
