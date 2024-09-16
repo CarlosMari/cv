@@ -55,7 +55,7 @@ export const RESUME_DATA = {
     {
       school: "Universidad Pontifica de Comillas ICAI",
       degree: "Bachelor's Degree in Telecommunication Technologies Engineering",
-      gpa: "Grade: 7.9",
+      gpa: "Grade: 7.9/10",
       coursework: "Coursework: Algorithms, Digital Systems I, Digital Systems II, Software Engineering, Signals and Systems, Communication Theory, Radiation and Propagation, Electromagnetic Fields",
       start: "2020",
       end: "2024",
