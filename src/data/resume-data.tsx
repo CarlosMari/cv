@@ -44,6 +44,14 @@ export const RESUME_DATA = {
   },
   education: [
     {
+      school: "Georgia Institute of Technology",
+      degree: "MSc in Electrical and Computer Engineering, Thesis Option",
+      gpa: "",
+      coursework: "",
+      start: "2025",
+      end: "2026",
+    },
+    {
       school: "Universidad Pontifica de Comillas ICAI",
       degree: "MSc in Telecommunication Engineering",
       gpa: "",
