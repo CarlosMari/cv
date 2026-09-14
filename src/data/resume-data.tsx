@@ -9,11 +9,11 @@ export const RESUME_DATA = {
   name: "Carlos Marí Noguera",
   initials: "CMN",
   location: "Madrid, Spain, CET",
-  locationLink: "https://www.google.com/maps/place/Madrid",
+  locationLink: "https://www.google.com/maps/place/Atlanta",
   about:
     "Graduate Engineering Student",
   summary:
-    "Currently doing research on the use of Autoencoders and Diffusion on timeseries forecasting.",
+    "Currently doing research on the privacy and personalization in FL",
   avatarUrl: "https://avatars.githubusercontent.com/u/97597629?v=4",
   personalWebsiteUrl: "carlosmari.com",
   contact: {
@@ -46,8 +46,8 @@ export const RESUME_DATA = {
     {
       school: "Georgia Institute of Technology",
       degree: "MSc in Electrical and Computer Engineering, Thesis Option",
-      gpa: "",
-      coursework: "",
+      gpa: "4.0",
+      coursework: "Microelectronics, Optoelectronics, Advanced Wireless Networks",
       start: "2025",
       end: "2026",
     },
@@ -78,14 +78,23 @@ export const RESUME_DATA = {
     },
   ],
   work: [
-
+    {
+      company: "Invopop (YC 23)",
+      link: "https://invopop.com",
+      badges: [],
+      title: "Product Engineer",
+      start: "May 2026",
+      end: "July 2026",
+      description:
+        "Led the integration of the danish e-invoicing network NemHandel.",
+    },
     {
       company: "Instituto de Investigación Tecnológica",
       link: "https://www.iit.comillas.edu",
       badges: [],
       title: "Research Assistant",
       start: "Sept 2024",
-      end: "N/A",
+      end: "December 2025",
       description:
         "Research on the use of autoencoders and diffusion in timeseries forecasting",
     },
@@ -122,9 +131,22 @@ export const RESUME_DATA = {
     "VHDL",
     "JavaScript",
     "ONNX",
+    "Go"
   ],
   projects: [
-
+    {
+      title: "The Effectiveness of Federated Learning in seismic interpretation",
+      techStack: [
+        "PyTorch",
+        "Python",
+      ],
+      description: "Presented at IMAGE26",
+      logo: ConsultlyLogo,
+      link: {
+        label: "Federated Learning",
+        href: "https://alregib.ece.gatech.edu/image-2026-papers/the-effectiveness-of-federated-learning-in-seismic-interpretation/",
+      },
+    },
     {
       title: "Timeseries forecasting",
       techStack: [
@@ -136,6 +158,20 @@ export const RESUME_DATA = {
       link: {
         label: "Autoencoders",
         href: "https://github.com/CarlosMari/TimeSeries",
+      },
+    },
+
+    {
+      title: "Neural Network Library from Scratch [WIP]",
+      techStack: [
+        "C++",
+        "CUDA",
+      ],
+      description: "Developed a bare C++ neural network library to learn about C++ and Cuda integrations",
+      logo: ConsultlyLogo,
+      link: {
+        label: "MovieGen",
+        href: "https://github.com/CarlosMari/neuralc/",
       },
     },
 
