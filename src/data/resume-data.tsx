@@ -131,7 +131,8 @@ export const RESUME_DATA = {
     "VHDL",
     "JavaScript",
     "ONNX",
-    "Go"
+    "Go",
+    "FastAPI"
   ],
   projects: [
     {
@@ -145,6 +146,20 @@ export const RESUME_DATA = {
       link: {
         label: "Federated Learning",
         href: "https://alregib.ece.gatech.edu/image-2026-papers/the-effectiveness-of-federated-learning-in-seismic-interpretation/",
+      },
+    },
+    {
+      title: "sop-runtime: Reliable LLM Agents from YAML Procedures",
+      techStack: [
+        "Python",
+        "FastAPI",
+        "LLMs",
+      ],
+      description: "YAML-defined procedures for LLM agents: code enforces identity checks, confirmations and data access; the model only reads and phrases. Guardrails, journey tests and pass^k evals.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "sop-runtime",
+        href: "https://github.com/CarlosMari/sop-runtime",
       },
     },
     {
