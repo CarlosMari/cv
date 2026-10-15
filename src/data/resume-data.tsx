@@ -8,8 +8,8 @@ import { GitHubIcon, LinkedInIcon, XIcon, CVIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Carlos Marí Noguera",
   initials: "CMN",
-  location: "Madrid, Spain, CET",
-  locationLink: "https://www.google.com/maps/place/Madrid",
+  location: "Atlanta, GA, USA, ET",
+  locationLink: "https://www.google.com/maps/place/Atlanta,+GA",
   about:
     "Graduate Engineering Student",
   summary:
