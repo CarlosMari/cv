@@ -9,7 +9,7 @@ export const RESUME_DATA = {
   name: "Carlos Marí Noguera",
   initials: "CMN",
   location: "Madrid, Spain, CET",
-  locationLink: "https://www.google.com/maps/place/Atlanta",
+  locationLink: "https://www.google.com/maps/place/Madrid",
   about:
     "Graduate Engineering Student",
   summary:
@@ -27,7 +27,7 @@ export const RESUME_DATA = {
       },
       {
         name: "LinkedIn",
-        url: "www.linkedin.com/in/carlos-marí-noguera",
+        url: "https://www.linkedin.com/in/carlos-mar%C3%AD-noguera",
         icon: LinkedInIcon,
       },
       {
@@ -52,7 +52,7 @@ export const RESUME_DATA = {
       end: "2026",
     },
     {
-      school: "Universidad Pontifica de Comillas ICAI",
+      school: "Universidad Pontificia de Comillas ICAI",
       degree: "MSc in Telecommunication Engineering",
       gpa: "",
       coursework: "",
@@ -61,7 +61,7 @@ export const RESUME_DATA = {
     },
 
     {
-      school: "Universidad Pontifica de Comillas ICAI",
+      school: "Universidad Pontificia de Comillas ICAI",
       degree: "Bachelor's Degree in Telecommunication Technologies Engineering",
       gpa: "Grade: 7.9/10",
       coursework: "Coursework: Algorithms, Digital Systems I, Digital Systems II, Software Engineering, Signals and Systems, Communication Theory, Radiation and Propagation, Electromagnetic Fields",
@@ -72,7 +72,7 @@ export const RESUME_DATA = {
       school: "The University of Texas at Austin",
       degree: "Bachelor's Degree in Electrical and Computer Engineering (Exchange)",
       gpa: "GPA: 3.92",
-      coursework: "Corsework: Digital Image Processing, Edge AI, Reinforcement Learning, Probability and Randomm Processes",
+      coursework: "Coursework: Digital Image Processing, Edge AI, Reinforcement Learning, Probability and Random Processes",
       start: "2023",
       end: "2024",
     },
@@ -86,7 +86,7 @@ export const RESUME_DATA = {
       start: "May 2026",
       end: "July 2026",
       description:
-        "Led the integration of the danish e-invoicing network NemHandel.",
+        "Led the integration of the Danish e-invoicing network NemHandel.",
     },
     {
       company: "Instituto de Investigación Tecnológica",
@@ -182,10 +182,10 @@ export const RESUME_DATA = {
         "C++",
         "CUDA",
       ],
-      description: "Developed a bare C++ neural network library to learn about C++ and Cuda integrations",
+      description: "Developed a bare C++ neural network library to learn about C++ and CUDA integrations",
       logo: ConsultlyLogo,
       link: {
-        label: "MovieGen",
+        label: "neuralc",
         href: "https://github.com/CarlosMari/neuralc/",
       },
     },
@@ -224,7 +224,7 @@ export const RESUME_DATA = {
         "PyTorch",
         "Python",
       ],
-      description: "Research on the use of Reinforcement Learning for Network Optimzation. Based on thee CFR-RL algorithm working on a model that is able to generalize to any topology.",
+      description: "Research on the use of Reinforcement Learning for Network Optimization. Based on the CFR-RL algorithm working on a model that is able to generalize to any topology.",
       logo: ConsultlyLogo,
       link: {
         label: "Generalized CFR-RL",
